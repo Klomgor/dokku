@@ -21,12 +21,12 @@ require (
 	github.com/traefik/traefik/v2 v2.11.14
 	golang.org/x/sync v0.10.0
 	gopkg.in/yaml.v3 v3.0.1
-	helm.sh/helm/v3 v3.14.2
+	helm.sh/helm/v3 v3.14.3
 	k8s.io/api v0.30.1
 	k8s.io/apimachinery v0.30.1
 	k8s.io/client-go v0.30.1
 	k8s.io/kubectl v0.29.0
-	k8s.io/kubernetes v1.29.1
+	k8s.io/kubernetes v1.29.7
 	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0
 	mvdan.cc/sh/v3 v3.10.0
 )
