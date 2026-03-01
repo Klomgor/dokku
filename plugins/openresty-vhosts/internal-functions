@@ -255,7 +255,7 @@ fn-openresty-template-compose-file() {
     OPENRESTY_LETSENCRYPT_EMAIL="$(fn-openresty-letsencrypt-email)"
     OPENRESTY_LETSENCRYPT_SERVER="$(fn-openresty-letsencrypt-server)")
 
-  local ALLOWED_DOMAINS_FUNC_BASE64="$(fn-fn-openresty-allowed-letsencrypt-domains-func-base64)"
+  local ALLOWED_DOMAINS_FUNC_BASE64="$(fn-openresty-allowed-letsencrypt-domains-func-base64)"
   if [[ -n "$ALLOWED_DOMAINS_FUNC_BASE64" ]]; then
     SIGIL_PARAMS+=(ALLOWED_DOMAINS_FUNC_BASE64="$ALLOWED_DOMAINS_FUNC_BASE64")
   fi
